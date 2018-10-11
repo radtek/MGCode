@@ -1,0 +1,1 @@
+#define WM_DISPLAY_INFOR WM_USER+10

@@ -1,0 +1,2063 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AddUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdoDb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvParaItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZOOMVIEW.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XZoomWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XZoomView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XTracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XDC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VtrlListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRightCfgMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSerialDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPageTextDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPageRoundDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPageFntDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBaseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBarCodePageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="STYLESAVEDLG.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrokeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stroke.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SSerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitPointCmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortListObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortHeaderCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SETTRACKERDLG.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetSortDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRunDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetRectangleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetQRCodebar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetIODlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetBarTextDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelMark.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectCoordinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RightMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RedMarkThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PTPZDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PtpDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProperDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerMeter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pdf417Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OptStrokeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Optiondlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetReg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Objecteditfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodetext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Noderect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodepolygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodeplt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeNC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodeline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodegrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodeellipse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeDxf_GP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodedxf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeDot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeDib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodecodebar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MYSTRUCT.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySerialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMFCPropertyGridCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MOVEACCUDLG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAccCmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorQuad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MgrText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCProertyItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mfccmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasureLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkSpecialDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Markpreviewdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Marknormaldlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkMulDocDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkdataStatDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageLayPara.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Led.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LAYERLIST.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerColorBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinPointCmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HlParaIni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLIni.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hldoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupNum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FntTTF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FntShx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FntHzk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fnt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlySetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FillObjmMarkSetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FillEditDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoadData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMarkStopDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMark.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternViewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternStroke.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendObjDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ETListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ETFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ETCharCTInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ETButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Errordlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EmergencyWatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipSetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditUserRightPassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditUserNameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfObjectListPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfDockablePane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfDlgInsertObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfDlgEditTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DsfDlgEditIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAWPOLYGONDLG.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DRAWGRIDDLG.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawfilldlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DogCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgZTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWorkbenchMeasure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTestFocus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSplash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetWorkbench.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetWaferArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetWafer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetLinePos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetDxfPrecision.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReplaceText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPowerTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMarkNormalPane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgImport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgHelpPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGrayCompensate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFocusTypeSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFileReplyRename.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExportPlt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEmergencyWarning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCodeRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCheckPower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCaliSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAutoOffsetEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAutoOffset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgArrayRename.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DibDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSourceDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMatrixDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPickerCB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdungroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdStoreDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdsetlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSelGroupByNum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdselect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdscale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdrotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdpaste.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdNewDrag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMultiSelect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdmove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdMAlign.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdKillAngle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdHitOtherObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdgroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdFilterDocPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdExtendObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmddrawset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdDotEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdDelObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmddelete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdDelDot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdcopy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdConvertSelToOneTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdConvert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdChangLay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdChangeLay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdAddPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmdaddnode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarkTicps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Childfrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CHandPos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CfgMng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDWorkDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDCalibrate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDArrayCom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCDAdjustDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BITMAPCLIENT.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarEditDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarcodeSetLen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarCodeMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarCodeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSortListObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrayposdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arraydlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBind\BindSetArchive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBind\KeyBindObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgImportAutoCadFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeGerber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecisionCompensationPara.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAgingTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextServiceDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringToolEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvParaItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdoDb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZOOMVIEW.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XZoomWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XZoomView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xtree7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WBGridCali_V2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WBGridCali.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VtrlListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vSocketMacro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserRightCfgMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSerialDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPageTextDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPageRoundDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPageFntDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBaseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBarCodePageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STYLESAVEDLG.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrokeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stroke.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringIDTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SSerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitPointCmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortListObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortHeaderCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SockDllDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SETTRACKERDLG.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetSortDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRunDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetRectangleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetQRCodebar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetIODlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetBarTextDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelMark.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectCoordinary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RightMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedMarkThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PTPZDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PtpDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProperDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerMeter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pdf417Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptStrokeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Optiondlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetReg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Objecteditfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodetext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Noderect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodepolygon.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodeplt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeNC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodeline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodegrid.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodeellipse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeDxf_GP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodedxf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeDot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeDib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodecodebar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MYSTRUCT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySerialize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMFCPropertyGridCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MOVEACCUDLG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAccCmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorQuad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MgrText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCProertyItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mfccmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasureLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkSpecialDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Markpreviewdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Marknormaldlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkMulDocDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkdataStatDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkApiDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageLayPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mainfrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LPSetINF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LocNukeForHL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Led.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LAYERLIST.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerColoBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KBChar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinPointCmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HlParaIni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLMotion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLIni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HlDACard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HL.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupNum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GenCodebar2MatrixH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GenCodebar1DimH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FntTTF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FntShx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FntHzk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlySetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FillObjmMarkSetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FillEditDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoadData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMarkStopDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMark.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternViewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternStroke.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendObjDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ETListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ETFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ETCharCTInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ETButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Errordlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmergencyWatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipSetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditUserRightPassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditUserNameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DxfTranslate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfObjectListPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfDockablePane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfDlgInsertObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfDlgEditTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DsfDlgEditIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrwIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawpolygondlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DRAWGRIDDLG.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawfilldlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DogCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DocPipe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgZTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWorkbenchMeasure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTestFocus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSplash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetWorkbench.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetWaferArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetWafer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetLinePos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetDxfPrecision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReplaceText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPowerTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMarkNormalPane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgImport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgHelpPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGrayCompensate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFocusTypeSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFileReplyRename.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExportPlt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEmergencyWarning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCodeRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCheckPower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCaliSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAutoOffsetEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAutoOffset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgArrayRename.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DibDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSourceDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMatrixDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPickerCB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdungroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdStoreDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdsetlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSelGroupByNum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdselect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdscale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdrotate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdpaste.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdNewDrag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdMultiSelect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdmove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdMAlign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdKillAngle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdHitOtherObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdgroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdFilterDocPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdfill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdExtendObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmddrawset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDotEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDelObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmddelete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDelDot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdcopy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdConvertSelToOneTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdConvert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdChangLay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdChangeLay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdAddPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmdaddnode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMarkTicps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Childfrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHandPos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CfgMng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDWorkDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDCalibrate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDArrayCom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCDAdjustDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CaliLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BITMAPCLIENT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarEditDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarcodeSetLen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarCodeMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarCodeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSortListObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrayposdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Arraydlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBind\BindSetArchive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBind\KeyBindObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgImportAutoCadFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeGerber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecisionCompensationPara.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAgingTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp11_std_files.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextServiceDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextServiceFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringToolEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RES\001_05.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\001_06.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\Administrator\桌面\11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\liuzq106425\桌面\20140303051504320_easyicon_net_32.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\20140303052329342_easyicon_net_32.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="C:\Documents and Settings\liuzq106425\桌面\20140303052329342_easyicon_net_32.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_bo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\arrange.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_ce.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_le.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_mi.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_ri.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\align_to.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp161.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\bitmap_n.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00003.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00005.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00006.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00007.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00008.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00009.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00010.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00011.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\bmp00012.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\bmp00013.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\bmp00014.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00015.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00016.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00017.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00018.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp152.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp159.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp160.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\click.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_bl.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\DcpOn.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_br.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_lr.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_pt.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_tb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_tr.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\ctrl_upl.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00002.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00003.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00004.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00005.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\cur00006.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\cursor2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\cursor3.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor_c.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\cursor_l.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor_s.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\cursor_t.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\d.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\da_card.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\DcpOff.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\dot.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\Drag.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\font.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GRID.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\H_move.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\hand_cur.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HL.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HL.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HLDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hujing1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hujing2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hujing3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hujing4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hujing5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00001.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00002.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00003.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00004.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00005.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00006.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00007.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00008.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00009.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00010.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00011.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00012.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00013.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00015.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00014.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00016.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00017.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00019.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00018.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00020.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon_xy1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00021.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00022.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00023.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00024.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00025.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\ico00026.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico00027.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon10.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon11.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon12.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon13.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon14.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon15.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon16.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon17.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon18.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon19.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon20.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon22.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon23.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon24.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon25.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon26.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon28.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon4.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon5.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon6.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon7.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\icon8.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\icon9.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon_dot.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\icon_ell.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\MLine.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\MlineH.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\mouserot.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\move.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\scale.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\scale_hi.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\sel_rect.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\singal_green.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\singal_red.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\tabimage.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\title.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\Trffc20.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\welcome.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="RES\mango_2.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\Msgbox03.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon30.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon_mar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico00028.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ico00029.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Version.lib" />
+    <Library Include="Winmm.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{05ade910-e2da-4708-839a-10b1cfaec0bc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{92259117-6ce6-4a81-9501-f58b1cff82b8}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{f0eb973e-b758-4347-b6e4-e58464ace973}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HL.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

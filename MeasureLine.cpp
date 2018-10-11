@@ -1,0 +1,22 @@
+// MeasureLine.cpp: implementation of the CMeasureLine class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "MeasureLine.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CMeasureLine::CMeasureLine()
+{
+	m_dbPos = 0.0;
+	m_nType = LEFT_TO_RIGHT;
+}

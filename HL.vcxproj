@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1842B63-DE04-423A-A414-31942EC52D43}</ProjectGuid>
+    <RootNamespace>HL</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\10Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\10Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MGD</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">FPC LCS</TargetName>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/HL.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>$(BOOST_DIR)\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_SPECIALPROP_EDIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/HL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;LocNukeForHL.lib;DDc.lib;gdiplus.lib;HLMotionDll_7.lib;WBGridCaliLib_V2.lib;OpcLaserDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\10Bin\FPC LCS.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>Lib;$(BOOST_DIR)\bin\vc10\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <ProgramDatabaseFile>..\10Bin\FPC LCS.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>16777216</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/HL.bsc</OutputFile>
+    </Bscmake>
+    <Manifest>
+      <OutputManifestFile>$(IntDir)$(TargetName)$(TargetExt).embed.manifest</OutputManifestFile>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>copy "$(TargetDir)FPC Laser Cutting System.exe" "\\192.168.0.3\FPC Laser Cutting System V1.0.0\FPC Laser Cutting system.exe"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/HL.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\include\uastack;.\include\uabase;.\include\uapki;.\include\uaclient;.\include\xmlparser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/HL.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_AFXDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>shlwapi.lib;LocNukeForHL_D.lib;DDc_D.lib;gdiplus.lib;HLMotionDll_6.lib;WBGridCaliLib_V2.lib;uaclient.lib;uabase.lib;uastack.lib;uapki.lib;.\third-party\win32\vs2010sp1\openssl\out32dll\libeay32.lib;.\third-party\win32\vs2010sp1\libxml2\out32dll\libxml2.lib;xmlparser.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\10Bin\MGD.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>
+      </DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/HLD.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>16777216</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/HL.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddUserDlg.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="AdoDb.cpp" />
+    <ClCompile Include="AdvParaItem.cpp" />
+    <ClCompile Include="Arraydlg.cpp" />
+    <ClCompile Include="Arrayposdlg.cpp" />
+    <ClCompile Include="AutoSortListObj.cpp" />
+    <ClCompile Include="BarCodeDlg.cpp" />
+    <ClCompile Include="BarCodeMgr.cpp" />
+    <ClCompile Include="BarcodeSetLen.cpp" />
+    <ClCompile Include="BarEditDlg.cpp" />
+    <ClCompile Include="BarPage.cpp" />
+    <ClCompile Include="BITMAPCLIENT.CPP" />
+    <ClCompile Include="CCDAdjustDlg.cpp" />
+    <ClCompile Include="CCDArrayCom.cpp" />
+    <ClCompile Include="CCDCalibrate.cpp" />
+    <ClCompile Include="CCDSettingDlg.cpp" />
+    <ClCompile Include="CCDWorkDlg.cpp" />
+    <ClCompile Include="CfgMng.cpp" />
+    <ClCompile Include="Chain.cpp" />
+    <ClCompile Include="CHandPos.cpp" />
+    <ClCompile Include="ChangDlg.cpp" />
+    <ClCompile Include="ChangeUserDlg.cpp" />
+    <ClCompile Include="Childfrm.cpp" />
+    <ClCompile Include="CMarkTicps.cpp" />
+    <ClCompile Include="Cmdaddnode.cpp" />
+    <ClCompile Include="CmdAddPoint.cpp" />
+    <ClCompile Include="Cmdarray.cpp" />
+    <ClCompile Include="CmdChangeLay.cpp" />
+    <ClCompile Include="CmdChangLay.cpp" />
+    <ClCompile Include="CmdConvert.cpp" />
+    <ClCompile Include="CmdConvertSelToOneTree.cpp" />
+    <ClCompile Include="Cmdcopy.cpp" />
+    <ClCompile Include="CmdDelDot.cpp" />
+    <ClCompile Include="Cmddelete.cpp" />
+    <ClCompile Include="CmdDelObj.cpp" />
+    <ClCompile Include="CmdDotEdit.cpp" />
+    <ClCompile Include="Cmddrawset.cpp" />
+    <ClCompile Include="CmdExtendObj.cpp" />
+    <ClCompile Include="Cmdfill.cpp" />
+    <ClCompile Include="CmdFilterDocPoint.cpp" />
+    <ClCompile Include="Cmdgroup.cpp" />
+    <ClCompile Include="CmdHitOtherObj.cpp" />
+    <ClCompile Include="CmdKillAngle.cpp" />
+    <ClCompile Include="CmdMAlign.cpp" />
+    <ClCompile Include="Cmdmove.cpp" />
+    <ClCompile Include="CmdMultiSelect.cpp" />
+    <ClCompile Include="CmdNewDrag.cpp" />
+    <ClCompile Include="Cmdpaste.cpp" />
+    <ClCompile Include="Cmdrotate.cpp" />
+    <ClCompile Include="Cmdscale.cpp" />
+    <ClCompile Include="Cmdselect.cpp" />
+    <ClCompile Include="CmdSelGroupByNum.cpp" />
+    <ClCompile Include="Cmdsetlay.cpp" />
+    <ClCompile Include="CmdStoreDoc.cpp" />
+    <ClCompile Include="Cmdungroup.cpp" />
+    <ClCompile Include="ColorBox.cpp" />
+    <ClCompile Include="ColorButton.cpp" />
+    <ClCompile Include="ColorPickerCB.cpp" />
+    <ClCompile Include="ColorStatic.cpp" />
+    <ClCompile Include="CStringToolEx.cpp" />
+    <ClCompile Include="DataMatrixDlg.cpp" />
+    <ClCompile Include="DataSourceDlg.cpp" />
+    <ClCompile Include="DibDlg.cpp" />
+    <ClCompile Include="DivideLayer.cpp" />
+    <ClCompile Include="DlgAgingTest.cpp" />
+    <ClCompile Include="DlgArrayRename.cpp" />
+    <ClCompile Include="DlgAutoOffset.cpp" />
+    <ClCompile Include="DlgAutoOffsetEx.cpp" />
+    <ClCompile Include="DlgCaliSet.cpp" />
+    <ClCompile Include="DlgCheckPower.cpp" />
+    <ClCompile Include="DlgCodeRecord.cpp" />
+    <ClCompile Include="DlgEmergencyWarning.cpp" />
+    <ClCompile Include="DlgExportPlt.cpp" />
+    <ClCompile Include="DlgFileReplyRename.cpp" />
+    <ClCompile Include="DlgFocusTypeSet.cpp" />
+    <ClCompile Include="DlgGrayCompensate.cpp" />
+    <ClCompile Include="DlgHelpPath.cpp" />
+    <ClCompile Include="DlgImport.cpp" />
+    <ClCompile Include="DlgImportAutoCadFile.cpp" />
+    <ClCompile Include="DlgMarkNormalPane.cpp" />
+    <ClCompile Include="DlgPowerTest.cpp" />
+    <ClCompile Include="DlgReplaceText.cpp" />
+    <ClCompile Include="DlgSetDxfPrecision.cpp" />
+    <ClCompile Include="DlgSetLinePos.cpp" />
+    <ClCompile Include="DlgSetWafer.cpp" />
+    <ClCompile Include="DlgSetWaferArray.cpp" />
+    <ClCompile Include="DlgSetWorkbench.cpp" />
+    <ClCompile Include="DlgSplash.cpp" />
+    <ClCompile Include="DlgTestFocus.cpp" />
+    <ClCompile Include="DlgWorkbenchMeasure.cpp" />
+    <ClCompile Include="DlgZTest.cpp" />
+    <ClCompile Include="DogCheck.cpp" />
+    <ClCompile Include="Dot.cpp" />
+    <ClCompile Include="Drawfilldlg.cpp" />
+    <ClCompile Include="DRAWGRIDDLG.CPP" />
+    <ClCompile Include="DRAWPOLYGONDLG.CPP" />
+    <ClCompile Include="DsfDlgEditIO.cpp" />
+    <ClCompile Include="DsfDlgEditTime.cpp" />
+    <ClCompile Include="DsfDlgInsertObj.cpp" />
+    <ClCompile Include="DsfDockablePane.cpp" />
+    <ClCompile Include="DsfListCtrl.cpp" />
+    <ClCompile Include="DsfObj.cpp" />
+    <ClCompile Include="DsfObjectListPane.cpp" />
+    <ClCompile Include="EditUserNameDlg.cpp" />
+    <ClCompile Include="EditUserRightPassword.cpp" />
+    <ClCompile Include="EllipSetDlg.cpp" />
+    <ClCompile Include="EmergencyWatcher.cpp" />
+    <ClCompile Include="Errordlg.cpp" />
+    <ClCompile Include="ETButton.cpp" />
+    <ClCompile Include="ETCharCTInfo.cpp" />
+    <ClCompile Include="ETFont.cpp" />
+    <ClCompile Include="ETListCtrl.cpp" />
+    <ClCompile Include="ExtendObjDlg.cpp" />
+    <ClCompile Include="ExternDoc.cpp" />
+    <ClCompile Include="ExternStroke.cpp" />
+    <ClCompile Include="ExternView.cpp" />
+    <ClCompile Include="ExternViewDlg.cpp" />
+    <ClCompile Include="FastMark.cpp" />
+    <ClCompile Include="FastMarkStopDlg.cpp" />
+    <ClCompile Include="FileLoadData.cpp" />
+    <ClCompile Include="Fill.cpp" />
+    <ClCompile Include="FillEditDlg.cpp" />
+    <ClCompile Include="FillObjmMarkSetDlg.cpp" />
+    <ClCompile Include="FlySetDlg.cpp" />
+    <ClCompile Include="Fnt.cpp" />
+    <ClCompile Include="FntHzk.cpp" />
+    <ClCompile Include="FntShx.cpp" />
+    <ClCompile Include="FntTTF.cpp" />
+    <ClCompile Include="FStatic.cpp" />
+    <ClCompile Include="GroupList.cpp" />
+    <ClCompile Include="GroupNum.cpp" />
+    <ClCompile Include="GroupObj.cpp" />
+    <ClCompile Include="Hl.cpp" />
+    <ClCompile Include="Hldoc.cpp" />
+    <ClCompile Include="HLException.cpp" />
+    <ClCompile Include="HLIni.cpp" />
+    <ClCompile Include="HlParaIni.cpp" />
+    <ClCompile Include="HLView.cpp" />
+    <ClCompile Include="IOController.cpp" />
+    <ClCompile Include="JoinPointCmd.cpp" />
+    <ClCompile Include="KeyBind.cpp" />
+    <ClCompile Include="KeyBind\BindSetArchive.cpp" />
+    <ClCompile Include="KeyBind\KeyBindObj.cpp" />
+    <ClCompile Include="LaserController.cpp" />
+    <ClCompile Include="Lay.cpp" />
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="LayerColorBtn.cpp" />
+    <ClCompile Include="LAYERLIST.CPP" />
+    <ClCompile Include="Led.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="ManageLayPara.cpp" />
+    <ClCompile Include="MarkCard.cpp" />
+    <ClCompile Include="MarkdataStatDlg.cpp" />
+    <ClCompile Include="MarkMgr.cpp" />
+    <ClCompile Include="MarkMulDocDlg.cpp" />
+    <ClCompile Include="Marknormaldlg.cpp" />
+    <ClCompile Include="Markpreviewdlg.cpp" />
+    <ClCompile Include="MarkSpecialDlg.cpp" />
+    <ClCompile Include="MatrixDoc.cpp" />
+    <ClCompile Include="MeasureLine.cpp" />
+    <ClCompile Include="Mfccmd.cpp" />
+    <ClCompile Include="MFCProertyItem.cpp" />
+    <ClCompile Include="MgrText.cpp" />
+    <ClCompile Include="MonitorQuad.cpp" />
+    <ClCompile Include="MoveAccCmd.cpp" />
+    <ClCompile Include="MOVEACCUDLG.cpp" />
+    <ClCompile Include="MsgWnd.cpp" />
+    <ClCompile Include="MyFont.cpp" />
+    <ClCompile Include="MyMFCPropertyGridCtrl.cpp" />
+    <ClCompile Include="MySerialize.cpp" />
+    <ClCompile Include="MYSTRUCT.CPP" />
+    <ClCompile Include="NetSet.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Nodecodebar.cpp" />
+    <ClCompile Include="NodeDib.cpp" />
+    <ClCompile Include="NodeDot.cpp" />
+    <ClCompile Include="Nodedxf.cpp" />
+    <ClCompile Include="NodeDxf_GP.cpp" />
+    <ClCompile Include="Nodeellipse.cpp" />
+    <ClCompile Include="NodeGerber.cpp" />
+    <ClCompile Include="Nodegrid.cpp" />
+    <ClCompile Include="Nodeline.cpp" />
+    <ClCompile Include="NodeNC.cpp" />
+    <ClCompile Include="Nodeplt.cpp" />
+    <ClCompile Include="Nodepolygon.cpp" />
+    <ClCompile Include="Noderect.cpp" />
+    <ClCompile Include="Nodetext.cpp" />
+    <ClCompile Include="Objecteditfill.cpp" />
+    <ClCompile Include="ObjectListDlg.cpp" />
+    <ClCompile Include="OffsetReg.cpp" />
+    <ClCompile Include="Optiondlg.cpp" />
+    <ClCompile Include="OptStrokeList.cpp" />
+    <ClCompile Include="Pdf417Dlg.cpp" />
+    <ClCompile Include="PowerMeter.cpp" />
+    <ClCompile Include="PrecisionCompensationPara.cpp" />
+    <ClCompile Include="ProperDlg.cpp" />
+    <ClCompile Include="Property.cpp" />
+    <ClCompile Include="PtpDlg.cpp" />
+    <ClCompile Include="PTPZDlg.cpp" />
+    <ClCompile Include="Quad.cpp" />
+    <ClCompile Include="RedMarkThread.cpp" />
+    <ClCompile Include="RightMng.cpp" />
+    <ClCompile Include="SelectCoordinary.cpp" />
+    <ClCompile Include="SelMark.cpp" />
+    <ClCompile Include="SelSort.cpp" />
+    <ClCompile Include="SetBarTextDlg.cpp" />
+    <ClCompile Include="SetIODlg.cpp" />
+    <ClCompile Include="SetLayer.cpp" />
+    <ClCompile Include="SetQRCodebar.cpp" />
+    <ClCompile Include="SetRectangleDlg.cpp" />
+    <ClCompile Include="SetRunDlg.cpp" />
+    <ClCompile Include="SetSortDlg.cpp" />
+    <ClCompile Include="SETTRACKERDLG.CPP" />
+    <ClCompile Include="SocketClient.cpp" />
+    <ClCompile Include="SortHeaderCtrl.cpp" />
+    <ClCompile Include="SortListCtrl.cpp" />
+    <ClCompile Include="SortListObj.cpp" />
+    <ClCompile Include="SplitPointCmd.cpp" />
+    <ClCompile Include="SSerialPort.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Stroke.cpp" />
+    <ClCompile Include="StrokeList.cpp" />
+    <ClCompile Include="STYLESAVEDLG.CPP" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextBarCodePageDlg.cpp" />
+    <ClCompile Include="TextBaseDlg.cpp" />
+    <ClCompile Include="TextEditDlg.cpp" />
+    <ClCompile Include="TextObject.cpp" />
+    <ClCompile Include="TextPageDlg.cpp" />
+    <ClCompile Include="TextPageFntDlg.cpp" />
+    <ClCompile Include="TextPageRoundDlg.cpp" />
+    <ClCompile Include="TextPageTextDlg.cpp" />
+    <ClCompile Include="TextSerialDlg.cpp" />
+    <ClCompile Include="TextService.cpp" />
+    <ClCompile Include="TextServiceDialog.cpp" />
+    <ClCompile Include="TextSet.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="UserLogin.cpp" />
+    <ClCompile Include="UserRightCfgMng.cpp" />
+    <ClCompile Include="VectorMgr.cpp" />
+    <ClCompile Include="VtrlListCtrl.cpp" />
+    <ClCompile Include="XDC.cpp" />
+    <ClCompile Include="XTracker.cpp" />
+    <ClCompile Include="XZoomView.cpp" />
+    <ClCompile Include="XZoomWnd.cpp" />
+    <ClCompile Include="ZOOMVIEW.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdoDb.h" />
+    <ClInclude Include="AddUserDlg.h" />
+    <ClInclude Include="AdvParaItem.h" />
+    <ClInclude Include="Arraydlg.h" />
+    <ClInclude Include="Arrayposdlg.h" />
+    <ClInclude Include="AutoSortListObj.h" />
+    <ClInclude Include="BarCodeDlg.h" />
+    <ClInclude Include="BarCodeMgr.h" />
+    <ClInclude Include="BarcodeSetLen.h" />
+    <ClInclude Include="BarEditDlg.h" />
+    <ClInclude Include="BarPage.h" />
+    <ClInclude Include="BITMAPCLIENT.H" />
+    <ClInclude Include="CaliLib.h" />
+    <ClInclude Include="CCDAdjustDlg.h" />
+    <ClInclude Include="CCDArrayCom.h" />
+    <ClInclude Include="CCDCalibrate.h" />
+    <ClInclude Include="CCDSettingDlg.h" />
+    <ClInclude Include="CCDWorkDlg.h" />
+    <ClInclude Include="CfgMng.h" />
+    <ClInclude Include="Chain.h" />
+    <ClInclude Include="CHandPos.h" />
+    <ClInclude Include="ChangDlg.h" />
+    <ClInclude Include="ChangeUserDlg.h" />
+    <ClInclude Include="Childfrm.h" />
+    <ClInclude Include="CMarkTicps.h" />
+    <ClInclude Include="Cmdaddnode.h" />
+    <ClInclude Include="CmdAddPoint.h" />
+    <ClInclude Include="Cmdarray.h" />
+    <ClInclude Include="CmdChangeLay.h" />
+    <ClInclude Include="CmdChangLay.h" />
+    <ClInclude Include="CmdConvert.h" />
+    <ClInclude Include="CmdConvertSelToOneTree.h" />
+    <ClInclude Include="Cmdcopy.h" />
+    <ClInclude Include="CmdDelDot.h" />
+    <ClInclude Include="Cmddelete.h" />
+    <ClInclude Include="CmdDelObj.h" />
+    <ClInclude Include="CmdDotEdit.h" />
+    <ClInclude Include="Cmddrawset.h" />
+    <ClInclude Include="CmdExtendObj.h" />
+    <ClInclude Include="Cmdfill.h" />
+    <ClInclude Include="CmdFilterDocPoint.h" />
+    <ClInclude Include="Cmdgroup.h" />
+    <ClInclude Include="CmdHitOtherObj.h" />
+    <ClInclude Include="CmdKillAngle.h" />
+    <ClInclude Include="CmdMAlign.h" />
+    <ClInclude Include="Cmdmove.h" />
+    <ClInclude Include="CmdMultiSelect.h" />
+    <ClInclude Include="CmdNewDrag.h" />
+    <ClInclude Include="Cmdpaste.h" />
+    <ClInclude Include="Cmdrotate.h" />
+    <ClInclude Include="Cmdscale.h" />
+    <ClInclude Include="Cmdselect.h" />
+    <ClInclude Include="CmdSelGroupByNum.h" />
+    <ClInclude Include="Cmdsetlay.h" />
+    <ClInclude Include="CmdStoreDoc.h" />
+    <ClInclude Include="Cmdungroup.h" />
+    <ClInclude Include="ColorBox.h" />
+    <ClInclude Include="ColorButton.h" />
+    <ClInclude Include="ColorPickerCB.h" />
+    <ClInclude Include="ColorStatic.h" />
+    <ClInclude Include="CommPort.h" />
+    <ClInclude Include="cpp11_std_files.h" />
+    <ClInclude Include="CStringToolEx.h" />
+    <ClInclude Include="CustomItem.h" />
+    <ClInclude Include="DataMatrixDlg.h" />
+    <ClInclude Include="DataSourceDlg.h" />
+    <ClInclude Include="datatype.h" />
+    <ClInclude Include="DibDlg.h" />
+    <ClInclude Include="DivideLayer.h" />
+    <ClInclude Include="DlgAgingTest.h" />
+    <ClInclude Include="DlgArrayRename.h" />
+    <ClInclude Include="DlgAutoOffset.h" />
+    <ClInclude Include="DlgAutoOffsetEx.h" />
+    <ClInclude Include="DlgCaliSet.h" />
+    <ClInclude Include="DlgCheckPower.h" />
+    <ClInclude Include="DlgCodeRecord.h" />
+    <ClInclude Include="DlgEmergencyWarning.h" />
+    <ClInclude Include="DlgExportPlt.h" />
+    <ClInclude Include="DlgFileReplyRename.h" />
+    <ClInclude Include="DlgFocusTypeSet.h" />
+    <ClInclude Include="DlgGrayCompensate.h" />
+    <ClInclude Include="DlgHelpPath.h" />
+    <ClInclude Include="DlgImport.h" />
+    <ClInclude Include="DlgImportAutoCadFile.h" />
+    <ClInclude Include="DlgMarkNormalPane.h" />
+    <ClInclude Include="DlgPowerTest.h" />
+    <ClInclude Include="DlgReplaceText.h" />
+    <ClInclude Include="DlgSetDxfPrecision.h" />
+    <ClInclude Include="DlgSetLinePos.h" />
+    <ClInclude Include="DlgSetWafer.h" />
+    <ClInclude Include="DlgSetWaferArray.h" />
+    <ClInclude Include="DlgSetWorkbench.h" />
+    <ClInclude Include="DlgSplash.h" />
+    <ClInclude Include="DlgTestFocus.h" />
+    <ClInclude Include="DlgWorkbenchMeasure.h" />
+    <ClInclude Include="DlgZTest.h" />
+    <ClInclude Include="DocPipe.h" />
+    <ClInclude Include="DogCheck.h" />
+    <ClInclude Include="Dot.h" />
+    <ClInclude Include="Drawfilldlg.h" />
+    <ClInclude Include="DRAWGRIDDLG.H" />
+    <ClInclude Include="Drawpolygondlg.h" />
+    <ClInclude Include="DrwIO.h" />
+    <ClInclude Include="DsfDlgEditIO.h" />
+    <ClInclude Include="DsfDlgEditTime.h" />
+    <ClInclude Include="DsfDlgInsertObj.h" />
+    <ClInclude Include="DsfDockablePane.h" />
+    <ClInclude Include="DsfListCtrl.h" />
+    <ClInclude Include="DsfObj.h" />
+    <ClInclude Include="DsfObjectListPane.h" />
+    <ClInclude Include="DxfTranslate.h" />
+    <ClInclude Include="EditUserNameDlg.h" />
+    <ClInclude Include="EditUserRightPassword.h" />
+    <ClInclude Include="EllipSetDlg.h" />
+    <ClInclude Include="EmergencyWatcher.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Errordlg.h" />
+    <ClInclude Include="ETButton.h" />
+    <ClInclude Include="ETCharCTInfo.h" />
+    <ClInclude Include="ETFont.h" />
+    <ClInclude Include="ETListCtrl.h" />
+    <ClInclude Include="ExtendObjDlg.h" />
+    <ClInclude Include="ExternDoc.h" />
+    <ClInclude Include="ExternStroke.h" />
+    <ClInclude Include="ExternView.h" />
+    <ClInclude Include="ExternViewDlg.h" />
+    <ClInclude Include="FastMark.h" />
+    <ClInclude Include="FastMarkStopDlg.h" />
+    <ClInclude Include="FileLoadData.h" />
+    <ClInclude Include="Fill.h" />
+    <ClInclude Include="FillEditDlg.h" />
+    <ClInclude Include="FillObjmMarkSetDlg.h" />
+    <ClInclude Include="FlySetDlg.h" />
+    <ClInclude Include="Fnt.h" />
+    <ClInclude Include="FntHzk.h" />
+    <ClInclude Include="FntShx.h" />
+    <ClInclude Include="FntTTF.h" />
+    <ClInclude Include="FStatic.h" />
+    <ClInclude Include="GenCodebar1DimH.h" />
+    <ClInclude Include="GenCodebar2MatrixH.h" />
+    <ClInclude Include="GroupList.h" />
+    <ClInclude Include="GroupNum.h" />
+    <ClInclude Include="GroupObj.h" />
+    <ClInclude Include="HL.H" />
+    <ClInclude Include="HlDACard.h" />
+    <ClInclude Include="HLDoc.h" />
+    <ClInclude Include="HLException.h" />
+    <ClInclude Include="HLIni.h" />
+    <ClInclude Include="HLMotion.h" />
+    <ClInclude Include="HlParaIni.h" />
+    <ClInclude Include="HLView.h" />
+    <ClInclude Include="InnerMsg.h" />
+    <ClInclude Include="IOController.h" />
+    <ClInclude Include="JoinPointCmd.h" />
+    <ClInclude Include="KBChar.h" />
+    <ClInclude Include="KeyBind.h" />
+    <ClInclude Include="KeyBind\BindSetArchive.h" />
+    <ClInclude Include="KeyBind\KeyBindObj.h" />
+    <ClInclude Include="LaserController.h" />
+    <ClInclude Include="Lay.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="LayerColoBtn.h" />
+    <ClInclude Include="LAYERLIST.H" />
+    <ClInclude Include="Led.h" />
+    <ClInclude Include="LocNukeForHL.h" />
+    <ClInclude Include="LPSetINF.h" />
+    <ClInclude Include="MacroDefine.h" />
+    <ClInclude Include="Mainfrm.h" />
+    <ClInclude Include="ManageLayPara.h" />
+    <ClInclude Include="MarkApiDef.h" />
+    <ClInclude Include="MarkCard.h" />
+    <ClInclude Include="MarkdataStatDlg.h" />
+    <ClInclude Include="MarkMgr.h" />
+    <ClInclude Include="MarkMulDocDlg.h" />
+    <ClInclude Include="Marknormaldlg.h" />
+    <ClInclude Include="Markpreviewdlg.h" />
+    <ClInclude Include="MarkSpecialDlg.h" />
+    <ClInclude Include="MatrixDoc.h" />
+    <ClInclude Include="MeasureLine.h" />
+    <ClInclude Include="Mfccmd.h" />
+    <ClInclude Include="MFCProertyItem.h" />
+    <ClInclude Include="MgrText.h" />
+    <ClInclude Include="MonitorQuad.h" />
+    <ClInclude Include="MoveAccCmd.h" />
+    <ClInclude Include="MOVEACCUDLG.h" />
+    <ClInclude Include="MsgWnd.h" />
+    <ClInclude Include="MyFont.h" />
+    <ClInclude Include="MyMFCPropertyGridCtrl.h" />
+    <ClInclude Include="MySerialize.h" />
+    <ClInclude Include="MYSTRUCT.H" />
+    <ClInclude Include="NetSet.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Nodecodebar.h" />
+    <ClInclude Include="NodeDib.h" />
+    <ClInclude Include="NodeDot.h" />
+    <ClInclude Include="Nodedxf.h" />
+    <ClInclude Include="NodeDxf_GP.h" />
+    <ClInclude Include="Nodeellipse.h" />
+    <ClInclude Include="NodeGerber.h" />
+    <ClInclude Include="Nodegrid.H" />
+    <ClInclude Include="Nodeline.h" />
+    <ClInclude Include="NodeNC.h" />
+    <ClInclude Include="Nodeplt.h" />
+    <ClInclude Include="Nodepolygon.H" />
+    <ClInclude Include="Noderect.h" />
+    <ClInclude Include="Nodetext.h" />
+    <ClInclude Include="Objecteditfill.h" />
+    <ClInclude Include="ObjectListDlg.h" />
+    <ClInclude Include="OffsetReg.h" />
+    <ClInclude Include="Optiondlg.h" />
+    <ClInclude Include="OptStrokeList.h" />
+    <ClInclude Include="Pdf417Dlg.h" />
+    <ClInclude Include="PowerMeter.h" />
+    <ClInclude Include="PrecisionCompensationPara.h" />
+    <ClInclude Include="ProperDlg.h" />
+    <ClInclude Include="Property.h" />
+    <ClInclude Include="PtpDlg.h" />
+    <ClInclude Include="PTPZDlg.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="RedMarkThread.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RightMng.h" />
+    <ClInclude Include="SelectCoordinary.h" />
+    <ClInclude Include="SelMark.h" />
+    <ClInclude Include="SelSort.h" />
+    <ClInclude Include="SetBarTextDlg.h" />
+    <ClInclude Include="SetIODlg.h" />
+    <ClInclude Include="SetLayer.h" />
+    <ClInclude Include="SetQRCodebar.h" />
+    <ClInclude Include="SetRectangleDlg.h" />
+    <ClInclude Include="SetRunDlg.h" />
+    <ClInclude Include="SetSortDlg.h" />
+    <ClInclude Include="SETTRACKERDLG.H" />
+    <ClInclude Include="SockDllDefine.h" />
+    <ClInclude Include="SocketClient.h" />
+    <ClInclude Include="SortHeaderCtrl.h" />
+    <ClInclude Include="SortListCtrl.h" />
+    <ClInclude Include="SortListObj.h" />
+    <ClInclude Include="SplitPointCmd.h" />
+    <ClInclude Include="SSerialPort.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="StringIDTable.h" />
+    <ClInclude Include="Stroke.h" />
+    <ClInclude Include="StrokeList.h" />
+    <ClInclude Include="STYLESAVEDLG.H" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="TextBarCodePageDlg.h" />
+    <ClInclude Include="TextBaseDlg.h" />
+    <ClInclude Include="TextEditDlg.h" />
+    <ClInclude Include="TextObject.h" />
+    <ClInclude Include="TextPageDlg.h" />
+    <ClInclude Include="TextPageFntDlg.h" />
+    <ClInclude Include="TextPageRoundDlg.h" />
+    <ClInclude Include="TextPageTextDlg.h" />
+    <ClInclude Include="TextSerialDlg.h" />
+    <ClInclude Include="TextService.h" />
+    <ClInclude Include="TextServiceDialog.h" />
+    <ClInclude Include="TextServiceFile.h" />
+    <ClInclude Include="TextSet.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="UserLogin.h" />
+    <ClInclude Include="UserRightCfgMng.h" />
+    <ClInclude Include="VectorMgr.h" />
+    <ClInclude Include="vSocketMacro.h" />
+    <ClInclude Include="VtrlListCtrl.h" />
+    <ClInclude Include="WBGridCali.h" />
+    <ClInclude Include="WBGridCali_V2.h" />
+    <ClInclude Include="XDC.h" />
+    <ClInclude Include="XTracker.h" />
+    <ClInclude Include="xtree7.h" />
+    <ClInclude Include="XZoomView.h" />
+    <ClInclude Include="XZoomWnd.h" />
+    <ClInclude Include="ZOOMVIEW.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HL.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Documents and Settings\Administrator\桌面\11.bmp" />
+    <None Include="C:\Documents and Settings\liuzq106425\桌面\20140303051504320_easyicon_net_32.ico" />
+    <None Include="C:\Documents and Settings\liuzq106425\桌面\20140303052329342_easyicon_net_32.ico" />
+    <None Include="RES\001_05.ico" />
+    <None Include="RES\001_06.ico" />
+    <None Include="RES\10.ico" />
+    <None Include="res\20140303052329342_easyicon_net_32.ico" />
+    <None Include="Res\align_bo.bmp" />
+    <None Include="Res\align_ce.bmp" />
+    <None Include="Res\align_le.bmp" />
+    <None Include="Res\align_mi.bmp" />
+    <None Include="Res\align_ri.bmp" />
+    <None Include="Res\align_to.bmp" />
+    <None Include="RES\arrange.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="RES\bitmap2.bmp" />
+    <None Include="RES\bitmap_n.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="Res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="Res\bmp00007.bmp" />
+    <None Include="Res\bmp00008.bmp" />
+    <None Include="Res\bmp00009.bmp" />
+    <None Include="Res\bmp00010.bmp" />
+    <None Include="Res\bmp00011.bmp" />
+    <None Include="Res\bmp00012.bmp" />
+    <None Include="RES\bmp00013.bmp" />
+    <None Include="RES\bmp00014.bmp" />
+    <None Include="res\bmp00015.bmp" />
+    <None Include="res\bmp00016.bmp" />
+    <None Include="res\bmp00017.bmp" />
+    <None Include="res\bmp00018.bmp" />
+    <None Include="res\bmp152.bmp" />
+    <None Include="res\bmp159.bmp" />
+    <None Include="res\bmp160.bmp" />
+    <None Include="res\bmp161.bmp" />
+    <None Include="RES\click.cur" />
+    <None Include="Res\ctrl_bl.bmp" />
+    <None Include="Res\ctrl_br.bmp" />
+    <None Include="Res\ctrl_lr.bmp" />
+    <None Include="Res\ctrl_pt.bmp" />
+    <None Include="Res\ctrl_tb.bmp" />
+    <None Include="Res\ctrl_tr.bmp" />
+    <None Include="Res\ctrl_upl.bmp" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\cur00002.cur" />
+    <None Include="res\cur00003.cur" />
+    <None Include="res\cur00004.cur" />
+    <None Include="res\cur00005.cur" />
+    <None Include="RES\cur00006.cur" />
+    <None Include="res\cursor1.cur" />
+    <None Include="Res\cursor2.cur" />
+    <None Include="Res\cursor3.cur" />
+    <None Include="res\cursor_c.cur" />
+    <None Include="Res\cursor_l.cur" />
+    <None Include="res\cursor_s.cur" />
+    <None Include="Res\cursor_t.cur" />
+    <None Include="RES\d.bmp" />
+    <None Include="res\da_card.bmp" />
+    <None Include="RES\DcpOff.ico" />
+    <None Include="RES\DcpOn.ico" />
+    <None Include="RES\dot.cur" />
+    <None Include="RES\Drag.CUR" />
+    <None Include="res\font.bmp" />
+    <None Include="res\GRID.bmp" />
+    <None Include="RES\H_move.cur" />
+    <None Include="RES\hand_cur.cur" />
+    <None Include="res\HL.ico" />
+    <None Include="res\HL.rc2" />
+    <None Include="res\HLDoc.ico" />
+    <None Include="res\hujing1.bmp" />
+    <None Include="res\hujing2.bmp" />
+    <None Include="res\hujing3.bmp" />
+    <None Include="res\hujing4.bmp" />
+    <None Include="res\hujing5.bmp" />
+    <None Include="RES\ico00001.ico" />
+    <None Include="RES\ico00002.ico" />
+    <None Include="RES\ico00003.ico" />
+    <None Include="RES\ico00004.ico" />
+    <None Include="RES\ico00005.ico" />
+    <None Include="RES\ico00006.ico" />
+    <None Include="RES\ico00007.ico" />
+    <None Include="RES\ico00008.ico" />
+    <None Include="RES\ico00009.ico" />
+    <None Include="RES\ico00010.ico" />
+    <None Include="RES\ico00011.ico" />
+    <None Include="RES\ico00012.ico" />
+    <None Include="RES\ico00013.ico" />
+    <None Include="RES\ico00014.ico" />
+    <None Include="RES\ico00015.ico" />
+    <None Include="RES\ico00016.ico" />
+    <None Include="RES\ico00017.ico" />
+    <None Include="RES\ico00018.ico" />
+    <None Include="RES\ico00019.ico" />
+    <None Include="RES\ico00020.ico" />
+    <None Include="RES\ico00021.ico" />
+    <None Include="RES\ico00022.ico" />
+    <None Include="RES\ico00023.ico" />
+    <None Include="RES\ico00024.ico" />
+    <None Include="RES\ico00025.ico" />
+    <None Include="RES\ico00026.ico" />
+    <None Include="res\ico00027.ico" />
+    <None Include="res\ico00028.ico" />
+    <None Include="res\ico00029.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="RES\icon10.ico" />
+    <None Include="RES\icon11.ico" />
+    <None Include="RES\icon12.ico" />
+    <None Include="RES\icon13.ico" />
+    <None Include="RES\icon14.ico" />
+    <None Include="RES\icon15.ico" />
+    <None Include="RES\icon16.ico" />
+    <None Include="RES\icon17.ico" />
+    <None Include="RES\icon18.ico" />
+    <None Include="RES\icon19.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="RES\icon20.ico" />
+    <None Include="RES\icon22.ico" />
+    <None Include="RES\icon23.ico" />
+    <None Include="RES\icon24.ico" />
+    <None Include="res\icon25.ico" />
+    <None Include="res\icon26.ico" />
+    <None Include="res\icon28.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\icon30.ico" />
+    <None Include="res\icon4.ico" />
+    <None Include="res\icon5.ico" />
+    <None Include="res\icon6.ico" />
+    <None Include="res\icon7.ico" />
+    <None Include="Res\icon8.ico" />
+    <None Include="Res\icon9.ico" />
+    <None Include="RES\icon_dot.ico" />
+    <None Include="RES\icon_ell.ico" />
+    <None Include="res\icon_mar.ico" />
+    <None Include="res\icon_xy1.ico" />
+    <None Include="RES\mango_2.ico" />
+    <None Include="RES\MLine.cur" />
+    <None Include="RES\MlineH.cur" />
+    <None Include="Res\mouserot.bmp" />
+    <None Include="RES\move.cur" />
+    <None Include="Res\Msgbox03.ico" />
+    <None Include="RES\scale.cur" />
+    <None Include="RES\scale_hi.ico" />
+    <None Include="RES\sel_rect.ico" />
+    <None Include="Res\singal_green.bmp" />
+    <None Include="Res\singal_red.bmp" />
+    <None Include="res\tabimage.bmp" />
+    <None Include="RES\title.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="Res\Trffc20.ico" />
+    <None Include="RES\welcome.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Version.lib" />
+    <Library Include="Winmm.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HL.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
